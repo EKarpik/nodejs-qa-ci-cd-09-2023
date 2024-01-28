@@ -5,6 +5,7 @@ const app = express();
 let server = null;
 
 consol.log('Hey, Lena');
+Console.ReadLine();
 
 app.get('/hello/:name', (req, res) => {
   const { name } = req.params;
