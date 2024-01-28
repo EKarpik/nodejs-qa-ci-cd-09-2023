@@ -67,7 +67,7 @@ jobs:
     - name: send telegram message on push
       uses: appleboy/telegram-action@master
       with:
-        to: ${{ secrets.TELEGRAM_CHANEL_ID }}
+        to: -4025689140
         token: ${{ secrets.TELEGRAM_TOKEN }}
         photo: ./test.png
         message: |
